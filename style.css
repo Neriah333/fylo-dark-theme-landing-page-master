@@ -169,3 +169,45 @@ li a {
     text-decoration: underline;
 }
 
+#testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    position: relative; 
+    padding-top: 40px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 40px 30px; /* Added more padding to match design height */
+    max-width: 360px;   /* Added a max-width to keep cards uniform */
+    border-radius: 5px;
+    
+}
+
+#quotes-image {
+    position: absolute;  /* 3. Takes it out of the flex layout flow */
+    top: 0;             /* 4. Tweak these coordinates to match the exact spacing */
+    left: 2%;          /* Adjust this percentage so it lines up with the first card */
+    z-index: -1;        /* 5. Places it safely behind the card text if they overlap */
+}
+
+.profile {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.profile-image {
+    max-width:30px;
+    border-radius: 50px;
+}
+.name {
+    font-size: x-small;
+}
+
