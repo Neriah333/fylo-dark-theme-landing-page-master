@@ -129,3 +129,43 @@ li a {
 .features p {
     line-height: 1.5; 
 }
+
+#productivity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    padding: 0 20px;
+}
+
+#productivity-image {
+    flex: 1;
+    max-width: 500px;
+    width: 100%;
+}
+
+#productivity-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    max-width: 450px;
+}
+
+#productivity-content h1 {
+    font-weight: 700;
+    font-family: raboto, sans-serif;
+    line-height: 1.2;
+    max-width: 20ch;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
+
