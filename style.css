@@ -101,3 +101,31 @@ li a {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
+
+#features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 50px;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    gap: 20px;
+}
+
+.features img {
+    display: block;
+    width: 50px;
+}
+
+.features p {
+    line-height: 1.5; 
+}
